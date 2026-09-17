@@ -1,0 +1,8 @@
+/*
+ * SoundcloudLogo (phosphor-icons/SoundcloudLogo@0.0.57)
+ *
+ * Learn More: https://www.framer.com/asset-urls
+ */
+
+export * from "../js/soundcloudlogo.js"
+export { default } from "../js/soundcloudlogo.js"
