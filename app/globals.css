@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Fuentes servidas 100% localmente desde /public/fonts.
+  No se usa Google Fonts ni ningún CDN externo: esto es clave
+  para que el sitio cargue rápido y de forma confiable en China continental.
+
+  Coloca aquí tus archivos .woff2:
+    /public/fonts/display.woff2   -> fuente display (headlines, estilo editorial)
+    /public/fonts/sans.woff2      -> fuente sans para texto en inglés
+    /public/fonts/zh.woff2        -> fuente para texto en chino simplificado
+
+  Si no subís fuentes propias, los fallbacks del sistema (serif / sans-serif)
+  se usan automáticamente, así que el sitio funciona igual desde el día uno.
+*/
+@font-face {
+  font-family: 'DisplayFont';
+  src: url('/fonts/display.woff2') format('woff2');
+  font-weight: 300 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SansFont';
+  src: url('/fonts/sans.woff2') format('woff2');
+  font-weight: 300 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ZhFont';
+  src: url('/fonts/zh.woff2') format('woff2');
+  font-weight: 300 700;
+  font-display: swap;
+}
+
+:root {
+  --font-display: 'DisplayFont', Georgia, 'Times New Roman', serif;
+  --font-sans: 'SansFont', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-zh: 'ZhFont', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: #f5f5f0;
+  font-family: var(--font-sans);
+}
+
+html[lang='zh'] body {
+  font-family: var(--font-zh);
+}
+
+::selection {
+  background: #c9a876;
+  color: #0a0a0a;
+}
+
+/* Scrollbar sutil */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+.container-px {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .container-px {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}

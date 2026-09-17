@@ -1,0 +1,303 @@
+{
+  "meta": {
+    "title": "Raul Pardeilhan Portfolio",
+    "description": "Raul Pardeilhan is a model, DJ, entrepreneur, actor, content creator, traveler, event photographer and creative director from Argentina."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "works": "Works",
+    "dj": "DJ"
+  },
+  "hero": {
+    "name": "RAUL PARDEILHAN",
+    "scroll": "Scroll to Explore",
+    "cta": "Contact Me"
+  },
+  "intro": {
+    "eyebrow": "About Raul",
+    "title": "About Raul?",
+    "body": "Raul Pardeilhan is an international model, actor, director and creative entrepreneur whose work spans film, fashion, visual storytelling and purpose-driven innovation. With more than two decades of experience across Europe, Australia and Asia, he brings together cinematic vision, performance and global creative leadership.",
+    "cta": "More About Me"
+  },
+  "stats": {
+    "title": "Selected Brands He Has Worked With",
+    "countries": "Countries",
+    "years": "Years of International Experience",
+    "awards": "Awards and Recognitions",
+    "brands": "Brand Collaborations"
+  },
+  "albums": {
+    "title": "Albums",
+    "viewAll": "View All Albums",
+    "items": [
+      {
+        "slug": "italy-milano",
+        "title": "Italy - Milano",
+        "tags": [
+          "Conceptual",
+          "Commercial"
+        ]
+      },
+      {
+        "slug": "polo",
+        "title": "Polo",
+        "tags": [
+          "La Martina",
+          "Commercial"
+        ]
+      },
+      {
+        "slug": "business",
+        "title": "Business",
+        "tags": [
+          "Corporate",
+          "Editorial"
+        ]
+      },
+      {
+        "slug": "acting",
+        "title": "Acting",
+        "tags": [
+          "Film",
+          "TV"
+        ]
+      },
+      {
+        "slug": "yoga",
+        "title": "Yoga",
+        "tags": [
+          "Lifestyle",
+          "Wellness"
+        ]
+      },
+      {
+        "slug": "pijama",
+        "title": "Pijama",
+        "tags": [
+          "Lifestyle",
+          "Commercial"
+        ]
+      },
+      {
+        "slug": "underwear",
+        "title": "Underwear",
+        "tags": [
+          "Portraits",
+          "Underwear"
+        ]
+      },
+      {
+        "slug": "modelcards",
+        "title": "Model Cards",
+        "tags": [
+          "Portfolio",
+          "Comp Card"
+        ]
+      },
+      {
+        "slug": "casual-ropa",
+        "title": "Casual",
+        "tags": [
+          "Lifestyle",
+          "Commercial"
+        ]
+      },
+      {
+        "slug": "hiking",
+        "title": "Hiking",
+        "tags": [
+          "Lifestyle",
+          "Outdoors"
+        ]
+      },
+      {
+        "slug": "polaroid",
+        "title": "Polaroid",
+        "tags": [
+          "Portraits",
+          "Analog"
+        ]
+      },
+      {
+        "slug": "surf",
+        "title": "Surf",
+        "tags": [
+          "Lifestyle",
+          "Sport"
+        ]
+      },
+      {
+        "slug": "dj",
+        "title": "DJ Raul",
+        "tags": [
+          "Music",
+          "Events"
+        ]
+      },
+      {
+        "slug": "TVC-VIDEOS",
+        "title": "TVC",
+        "tags": [
+          "Commercial",
+          "TV"
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Smiles and Stories from",
+    "title": "My Clients",
+    "viewAll": "View all reviews",
+    "items": [
+      {
+        "quote": "We are thrilled with the product photography provided by Raul. He captured our products beautifully, highlighting their unique features and enhancing their appeal.",
+        "name": "Michael T.",
+        "role": "Marketing Manager, Stellar Designs"
+      },
+      {
+        "quote": "Thank you, our product images have never looked better! He has a keen eye for detail and a talent for capturing our products in the best possible light. We couldn't be happier with the results!",
+        "name": "Aurora Jensen",
+        "role": "Marketing Director"
+      },
+      {
+        "quote": "He provided exceptional product photography services for our latest collection. His attention to detail and creative approach resulted in images that perfectly showcased our products. Highly recommended!",
+        "name": "G. Monroe",
+        "role": "Marketing Manager, Stellar Designs"
+      },
+      {
+        "quote": "It was a fantastic experience! He brought a level of professionalism and creativity to our product photography that truly set our brand apart. We look forward to working with him again in the future!",
+        "name": "Michael",
+        "role": "MD, Stellar Designs"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ:",
+    "title": "All your answers here",
+    "items": [
+      {
+        "q": "How can I book you for a photoshoot?",
+        "a": "You can book me by contacting me through the contact form, phone number or by sending me a direct message on my social media. I'd be happy to discuss the details like the type of session, location, and available dates."
+      },
+      {
+        "q": "Do you have experience working with different types of fashion or brands?",
+        "a": "Yes, I have worked with a range of brands and photographers, from commercial fashion to editorial and runway. I adapt to various styles and concepts, always looking to collaborate on creative projects that highlight both the clothing and the unique vibe of each brand."
+      },
+      {
+        "q": "How many years of experience do you have?",
+        "a": "I have more than 26 years of experience."
+      }
+    ]
+  },
+  "about": {
+    "heading1": "Raul",
+    "heading2": "Pardeilhan",
+    "scroll": "Scroll to Explore",
+    "cta": "Work With Me",
+    "downloadPdf": "Download PDF",
+    "intro": "Raul Pardeilhan is a passionate model, actor, producer, and DJ based in China. With over a decade of experience in front of the camera, he specializes in bringing characters and concepts to life through fashion, film and commercial campaigns.",
+    "brandsTitle": "Selected Brands",
+    "brandsBody": "Raul has worked with elite brands and many Fortune 500 companies, including: Aston Martin, De Rucci, Canali, Motivi, La Martina, Angelo Nardelli, Moschino, Huawei, Philips, Zara, H&M, Chevignon, Miss Sixty, Samsonite (Asian Advertising Campaign), Hugo Boss, Joe One, BossSunwen, Menhardum, Goldlion, Saint Paulon, Ferrari, SKAP, Giordano, Canudilo, Mo&Co, Lululemon, Mobike, Nissan, Mazda CX5, DongFeng Commercial Vehicle, Tommy Hilfiger, JIBB Swiss made, Mission Hills Shenzhen, HSBC South China branch, Rosewood Cambodia, Stefano Ricci, Uncle Toby's and Woolworths, and many more.",
+    "letsWork": "Let's Work",
+    "qualitiesTitle": "What You Will Find in Me",
+    "qualities": [
+      "Creative Vision",
+      "Professionalism",
+      "Passion",
+      "Adaptability"
+    ],
+    "awardsEyebrow": "Shining Moments of Glory",
+    "awardsTitle": "Awards",
+    "awards": [
+      {
+        "number": "01",
+        "title": "Best Short Film — Guangzhou Film Festival",
+        "year": "2018"
+      },
+      {
+        "number": "02",
+        "title": "Outstanding Film Director and Executive Producer for the short film \"Newton's Laws\"",
+        "year": "2019"
+      },
+      {
+        "number": "03",
+        "title": "Outstanding Short Film at the Guangzhou Film Festival",
+        "year": "2020"
+      },
+      {
+        "number": "04",
+        "title": "TV series \"Children of the Bay Area\", broadcast on CCTV1",
+        "year": "2020"
+      }
+    ],
+    "historyTitle": "History",
+    "historyParagraphs": [
+      "Raul Pardeilhan was born in Buenos Aires, Argentina. He holds an Argentinian and Italian passport, since his family roots are European. In Buenos Aires he finished his studies at the «Instituto Leonardo Da Vinci», oriented toward commercial business.",
+      "He then studied for four years at the National University of La Plata (UNLP) in Buenos Aires, majoring in Business Administration.",
+      "After receiving a job offer from an Italian company, having started his career as an actor in Buenos Aires, he moved to Milan, where he lived for five years working for top Italian brands.",
+      "He has been based in China for the last 10 years. Feeling at home there, he established Shining Tigers Production in Hong Kong, working as a successful actor, model, producer and DJ, collaborating with elite brands and many Fortune 500 companies.",
+      "As an international cultural exchange ambassador, he has connected business, media, fashion and entertainment between leading countries such as the USA, Italy, Argentina and China. His mission is to help people and projects shine brighter globally.",
+      "As a visionary with extensive experience in the fashion industry, he has recognized the importance of raising awareness about how we consume and produce fashion products.",
+      "He has worked in international environments as a professional actor and male model in Italy, France, Germany, Switzerland, the United States, Argentina, Uruguay, Thailand, the Philippines, and for more than nine years in the Chinese and Hong Kong markets, doing fashion productions and cultural and corporate events."
+    ],
+    "shiningTigersTitle": "Shining Tigers Production",
+    "shiningTigersParagraphs": [
+      "Working with major retailers such as Zara and H&M, our creative approach captures customers' attention with tailor-made live music for each brand, creating the perfect atmosphere for the best possible in-store experience — including opening ceremonies, new collection launches and promotional campaigns in China's biggest city centers, such as Wuhan, Xi'an, Chongqing, Zhuhai, Hong Kong, Macau, Shenzhen, Guangzhou, Zhongshan, Beijing and Shanghai.",
+      "Micro-movie for Motivi: Ms. Mo Xiao Qi, a famous Chinese actress and emcee, and Raul Pardeilhan starred in the short film \"The Marriage Date\" in Rome, directed by renowned Hong Kong director Mr. Qian Guo Wei.",
+      "April 2016: Co-producer and partner with the Argentine Embassy for Malbec World Day, held at the Canton Tower in Guangzhou, in charge of the music, dance shows and performances.",
+      "June 2016: Co-producer for the 200th anniversary of Argentina's independence, celebrated at the Canton Club in Guangzhou."
+    ],
+    "news": "News"
+  },
+  "footer": {
+    "tagline": "Model · Actor · Director · Creative Entrepreneur",
+    "rights": "All rights reserved.",
+    "madeWith": "Site by Marga Studio"
+  },
+  "socials": {
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "soundcloud": "Soundcloud",
+    "linkedin": "LinkedIn"
+  },
+  "languageSwitcher": {
+    "label": "Language"
+  },
+  "dj": {
+    "pageTitle": "DJ Laohu (老虎)",
+    "aboutEyebrow": "About",
+    "aboutTitle": "Music & Live Experiences",
+    "bio": "Raúl Pardeilhan, known as DJ Laohu (老虎), is an Argentinian-born DJ, musician, percussionist, and event producer with over 20 years of experience creating immersive musical experiences worldwide. Combining electronic music, live percussion, and healing sound practices, Raúl has performed at international festivals and exclusive events, including Burning Man (2018 & 2019) and the New Zealand Spirit Festival. His unique approach blends energy, rhythm, and connection to create memorable experiences for diverse audiences. His performances have also reached the luxury industry, collaborating with renowned brands and events such as the opening of Virgin Hotels New York City (2023), Chaumet, and Messika Jewelry (2024). Based between Europe, Asia, and the Americas, Raúl continues to connect cultures through music, creativity, and shared experiences.",
+    "videosTitle": "Live Sets & Performances",
+    "timeTravelers": {
+      "lineupLabel": "DJ Line-Up",
+      "title": "Time Travelers",
+      "subtitle": "His music project with friends",
+      "tagline": "Three visionary musicians gather in brilliance, creating a unique sonic experience. With organic resonance, healing frequencies, and rhythmic fusion, they journey through time and space, entering their mysterious world, experiencing the transcendental journey of time travelers.",
+      "whoWeAre": "Who we are?",
+      "members": [
+        {
+          "name": "João Hein",
+          "role": "Guitarist, Singer & Flutist",
+          "bio": "Brazilian guitarist, singer, and flutist. Born into a musical family, he received an accordion from his grandfather at the age of 5, teaching him to play his first piece, thus beginning his musical career. With extensive performance experience, he excels in using various musical styles to heal hearts."
+        },
+        {
+          "name": "DJ Tiger",
+          "role": "DJ & Percussion",
+          "bio": "An outstanding musician from Argentina. His music style spans from deep house, downtempo organic, tribal, and jungle to tech house, techno, funk, and melodic ambiance. A talented DJ with a keen ear for selection and solid mixing. To create a brighter future and become a better artist, he is currently involved in a healing project with powerful frequencies, touching the hearts of everyone and establishing connections in the harmonious present."
+        },
+        {
+          "name": "Jake",
+          "role": "Composer & Sound Therapist",
+          "bio": "British composer and sound therapist. Having composed for hundreds of works, with over 40 receiving domestic and international awards in fields such as film, television, documentaries, virtual reality, and animation. Since leaving commercial projects in 2018, Jake has dedicated his life and music more fully to sound therapy and meditation music, reaching audiences of hundreds of thousands globally."
+        }
+      ]
+    }
+  },
+  "works": {
+    "photosTab": "Photos",
+    "videosTab": "Videos",
+    "videosEmpty": "Videos coming soon."
+  }
+}
