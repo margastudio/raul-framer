@@ -2,5 +2,15 @@ node_modules
 raw-photos
 .git
 .next
+.env*
+.vercel
+/*.jpg
+/*.jpeg
+/*.png
+/*.woff2
+/*.mjs
+/*.js
+/*.html
+/*.framercms
 *.log
 .DS_Store

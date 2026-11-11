@@ -15,6 +15,9 @@ export default function Testimonials() {
   const next = () => setIndex((i) => (i + 1) % items.length);
   const prev = () => setIndex((i) => (i - 1 + items.length) % items.length);
 
+  // Sin testimonios reales y autorizados, la sección no se muestra.
+  if (!items.length) return null;
+
   const current = items[index];
 
   return (
@@ -42,7 +45,7 @@ export default function Testimonials() {
         </AnimatePresence>
 
         <div className="mt-10 flex items-center justify-center gap-6">
-          <button onClick={prev} className="text-xs tracking-widest2 uppercase hover:text-accent transition-colors">
+          <button onClick={prev} aria-label={t('prev')} className="text-xs tracking-widest2 uppercase hover:text-accent transition-colors">
             ←
           </button>
           <div className="flex gap-2">
@@ -51,11 +54,12 @@ export default function Testimonials() {
                 key={i}
                 onClick={() => setIndex(i)}
                 className={`h-1.5 w-1.5 rounded-full transition-colors ${i === index ? 'bg-accent' : 'bg-foreground/20'}`}
-                aria-label={`Testimonial ${i + 1}`}
+                aria-label={`${i + 1} / ${items.length}`}
+                aria-current={i === index}
               />
             ))}
           </div>
-          <button onClick={next} className="text-xs tracking-widest2 uppercase hover:text-accent transition-colors">
+          <button onClick={next} aria-label={t('next')} className="text-xs tracking-widest2 uppercase hover:text-accent transition-colors">
             →
           </button>
         </div>

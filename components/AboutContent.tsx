@@ -2,6 +2,8 @@
 
 import { useTranslations } from 'next-intl';
 import RevealOnScroll from './RevealOnScroll';
+import BrandsBand from './BrandsBand';
+import CtaBanner from './CtaBanner';
 
 type Award = { number: string; title: string; year: string };
 
@@ -47,10 +49,11 @@ export default function AboutContent() {
         </RevealOnScroll>
       </section>
 
-      {/* Marcas */}
+      {/* Marcas: grilla de logos + listado completo */}
+      <BrandsBand variant="grid" />
       <section className="container-px py-20 border-t border-white/5">
         <RevealOnScroll className="mx-auto max-w-3xl text-center">
-          <h2 className="font-display text-2xl md:text-3xl">{t('brandsTitle')}</h2>
+          <h2 className="font-display text-xl md:text-2xl">{t('brandsTitle')}</h2>
           <p className="mt-6 text-sm md:text-base leading-relaxed text-foreground/60">{t('brandsBody')}</p>
         </RevealOnScroll>
       </section>
@@ -117,6 +120,8 @@ export default function AboutContent() {
           ))}
         </div>
       </section>
+
+      <CtaBanner />
     </>
   );
 }

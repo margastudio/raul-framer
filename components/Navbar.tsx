@@ -13,8 +13,13 @@ export default function Navbar() {
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
+    const onKey = (e: KeyboardEvent) => e.key === 'Escape' && setOpen(false);
     window.addEventListener('scroll', onScroll);
-    return () => window.removeEventListener('scroll', onScroll);
+    window.addEventListener('keydown', onKey);
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('keydown', onKey);
+    };
   }, []);
 
   const links = [
@@ -34,11 +39,11 @@ export default function Navbar() {
       }`}
     >
       <div className="container-px flex items-center justify-between h-20">
-        <Link href="/" className="font-display text-sm tracking-widest2 uppercase">
+        <Link href="/" className="font-display text-sm tracking-widest2 uppercase whitespace-nowrap">
           <span className="font-zh normal-case mr-1">老虎</span>Raul Pardeilhan
         </Link>
 
-        <nav className="hidden md:flex items-center gap-10 text-xs tracking-widest2 uppercase">
+        <nav className="hidden lg:flex items-center gap-10 text-xs tracking-widest2 uppercase whitespace-nowrap">
           {links.map((l) => (
             <Link key={l.href} href={l.href} className="hover:text-accent transition-colors duration-300">
               {l.label}
@@ -49,8 +54,10 @@ export default function Navbar() {
 
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden flex flex-col gap-1.5 w-7"
-          aria-label="Menu"
+          className="lg:hidden flex flex-col gap-1.5 w-7 py-2"
+          aria-label={t('menu')}
+          aria-expanded={open}
+          aria-controls="mobile-nav"
         >
           <span className="h-px w-full bg-foreground" />
           <span className="h-px w-full bg-foreground" />
@@ -59,10 +66,11 @@ export default function Navbar() {
 
       {open && (
         <motion.nav
+          id="mobile-nav"
           initial={{ height: 0, opacity: 0 }}
           animate={{ height: 'auto', opacity: 1 }}
           exit={{ height: 0, opacity: 0 }}
-          className="md:hidden bg-background border-t border-white/5"
+          className="lg:hidden bg-background border-t border-white/5"
         >
           <div className="container-px py-6 flex flex-col gap-6 text-sm tracking-widest2 uppercase">
             {links.map((l) => (

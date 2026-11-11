@@ -20,6 +20,15 @@ const config: Config = {
       letterSpacing: {
         widest2: '0.35em',
       },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
+      },
+      animation: {
+        marquee: 'marquee 45s linear infinite',
+      },
     },
   },
   plugins: [],

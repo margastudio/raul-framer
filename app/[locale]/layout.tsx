@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import { Analytics } from '@vercel/analytics/next';
 import { locales, type Locale } from '@/i18n';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -44,9 +45,9 @@ export async function generateMetadata({
       type: 'website',
       images: [
         {
-          url: '/images/og-image.jpg',
+          url: '/images/og-image.png',
           width: 1200,
-          height: 630,
+          height: 633,
           alt: 'Raul Pardeilhan Portfolio',
         },
       ],
@@ -55,7 +56,7 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title: t('title'),
       description: t('description'),
-      images: ['/images/og-image.jpg'],
+      images: ['/images/og-image.png'],
     },
     alternates: {
       canonical: locale === 'en' ? '/' : `/${locale}`,
@@ -90,6 +91,7 @@ export default async function LocaleLayout({
           <main>{children}</main>
           <Footer />
         </NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   );

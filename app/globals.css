@@ -88,3 +88,25 @@ html[lang='zh'] body {
     padding-right: 4rem;
   }
 }
+
+/* Foco visible y consistente para teclado */
+:focus-visible {
+  outline: 2px solid #c9a876;
+  outline-offset: 3px;
+}
+
+/* Utilidad usada por OtherAlbumsTicker (antes no estaba definida) */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Sin animaciones ni scroll suave si el usuario lo pidió */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

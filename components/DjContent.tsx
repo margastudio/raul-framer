@@ -3,6 +3,8 @@
 import { useTranslations } from 'next-intl';
 import RevealOnScroll from './RevealOnScroll';
 import VimeoEmbed from './VimeoEmbed';
+import CtaBanner from './CtaBanner';
+import { CONTACT_EMAIL } from '@/lib/siteData';
 
 type Member = { name: string; role: string; bio: string };
 
@@ -20,6 +22,7 @@ const WHO_WE_ARE_VIDEO = '1147718148';
 
 export default function DjContent() {
   const t = useTranslations('dj');
+  const tCta = useTranslations('cta');
   const members = t.raw('timeTravelers.members') as Member[];
 
   return (
@@ -30,6 +33,20 @@ export default function DjContent() {
           <p className="text-xs tracking-widest2 uppercase text-accent">{t('aboutEyebrow')}</p>
           <h1 className="mt-4 font-display text-5xl md:text-7xl tracking-widest2 uppercase">{t('pageTitle')}</h1>
           <p className="mt-6 text-lg text-foreground/60">{t('aboutTitle')}</p>
+          <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+            <a
+              href="#sets"
+              className="inline-block bg-foreground px-8 py-3 text-xs tracking-widest2 uppercase text-background transition-colors duration-300 hover:bg-accent"
+            >
+              {t('listen')}
+            </a>
+            <a
+              href={`mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(tCta('djSubject'))}`}
+              className="inline-block border border-foreground/40 px-8 py-3 text-xs tracking-widest2 uppercase transition-colors duration-300 hover:border-accent hover:text-accent"
+            >
+              {tCta('djBook')}
+            </a>
+          </div>
         </RevealOnScroll>
       </section>
 
@@ -41,7 +58,7 @@ export default function DjContent() {
       </section>
 
       {/* Live sets */}
-      <section className="container-px pb-28 border-t border-white/5 pt-24">
+      <section id="sets" className="container-px pb-28 border-t border-white/5 pt-24 scroll-mt-20">
         <RevealOnScroll className="mb-12 text-center">
           <h2 className="font-display text-3xl md:text-4xl">{t('videosTitle')}</h2>
         </RevealOnScroll>
@@ -91,6 +108,8 @@ export default function DjContent() {
           ))}
         </div>
       </section>
+
+      <CtaBanner variant="dj" />
     </>
   );
 }

@@ -7,21 +7,23 @@
     "home": "Home",
     "about": "About",
     "works": "Works",
-    "dj": "DJ"
+    "dj": "DJ",
+    "menu": "Menu"
   },
   "hero": {
     "name": "RAUL PARDEILHAN",
     "scroll": "Scroll to Explore",
-    "cta": "Contact Me"
+    "descriptor": "International Model · Actor · Director · Creative Entrepreneur",
+    "ctaWork": "Explore My Work",
+    "ctaContact": "Let's Work Together"
   },
   "intro": {
     "eyebrow": "About Raul",
     "title": "About Raul?",
-    "body": "Raul Pardeilhan is an international model, actor, director and creative entrepreneur whose work spans film, fashion, visual storytelling and purpose-driven innovation. With more than two decades of experience across Europe, Australia and Asia, he brings together cinematic vision, performance and global creative leadership.",
+    "body": "Raul Pardeilhan is an international model, actor, director and creative entrepreneur whose work spans film, fashion, visual storytelling and purpose-driven innovation. With international experience across Europe, Australia and Asia, he brings together cinematic vision, performance and global creative leadership.",
     "cta": "More About Me"
   },
   "stats": {
-    "title": "Selected Brands He Has Worked With",
     "countries": "Countries",
     "years": "Years of International Experience",
     "awards": "Awards and Recognitions",
@@ -143,34 +145,16 @@
           "TV"
         ]
       }
-    ]
+    ],
+    "featuredTitle": "Selected Work"
   },
   "testimonials": {
     "eyebrow": "Smiles and Stories from",
     "title": "My Clients",
     "viewAll": "View all reviews",
-    "items": [
-      {
-        "quote": "We are thrilled with the product photography provided by Raul. He captured our products beautifully, highlighting their unique features and enhancing their appeal.",
-        "name": "Michael T.",
-        "role": "Marketing Manager, Stellar Designs"
-      },
-      {
-        "quote": "Thank you, our product images have never looked better! He has a keen eye for detail and a talent for capturing our products in the best possible light. We couldn't be happier with the results!",
-        "name": "Aurora Jensen",
-        "role": "Marketing Director"
-      },
-      {
-        "quote": "He provided exceptional product photography services for our latest collection. His attention to detail and creative approach resulted in images that perfectly showcased our products. Highly recommended!",
-        "name": "G. Monroe",
-        "role": "Marketing Manager, Stellar Designs"
-      },
-      {
-        "quote": "It was a fantastic experience! He brought a level of professionalism and creativity to our product photography that truly set our brand apart. We look forward to working with him again in the future!",
-        "name": "Michael",
-        "role": "MD, Stellar Designs"
-      }
-    ]
+    "items": [],
+    "prev": "Previous",
+    "next": "Next"
   },
   "faq": {
     "eyebrow": "FAQ:",
@@ -178,15 +162,11 @@
     "items": [
       {
         "q": "How can I book you for a photoshoot?",
-        "a": "You can book me by contacting me through the contact form, phone number or by sending me a direct message on my social media. I'd be happy to discuss the details like the type of session, location, and available dates."
+        "a": "You can book me by emailing me or sending a direct message on my social media. I'd be happy to discuss the details like the type of session, location, and available dates."
       },
       {
         "q": "Do you have experience working with different types of fashion or brands?",
         "a": "Yes, I have worked with a range of brands and photographers, from commercial fashion to editorial and runway. I adapt to various styles and concepts, always looking to collaborate on creative projects that highlight both the clothing and the unique vibe of each brand."
-      },
-      {
-        "q": "How many years of experience do you have?",
-        "a": "I have more than 26 years of experience."
       }
     ]
   },
@@ -196,7 +176,7 @@
     "scroll": "Scroll to Explore",
     "cta": "Work With Me",
     "downloadPdf": "Download PDF",
-    "intro": "Raul Pardeilhan is a passionate model, actor, producer, and DJ based in China. With over a decade of experience in front of the camera, he specializes in bringing characters and concepts to life through fashion, film and commercial campaigns.",
+    "intro": "Raul Pardeilhan is a passionate model, actor, producer, and DJ based in China. With extensive experience in front of the camera, he specializes in bringing characters and concepts to life through fashion, film and commercial campaigns.",
     "brandsTitle": "Selected Brands",
     "brandsBody": "Raul has worked with elite brands and many Fortune 500 companies, including: Aston Martin, De Rucci, Canali, Motivi, La Martina, Angelo Nardelli, Moschino, Huawei, Philips, Zara, H&M, Chevignon, Miss Sixty, Samsonite (Asian Advertising Campaign), Hugo Boss, Joe One, BossSunwen, Menhardum, Goldlion, Saint Paulon, Ferrari, SKAP, Giordano, Canudilo, Mo&Co, Lululemon, Mobike, Nissan, Mazda CX5, DongFeng Commercial Vehicle, Tommy Hilfiger, JIBB Swiss made, Mission Hills Shenzhen, HSBC South China branch, Rosewood Cambodia, Stefano Ricci, Uncle Toby's and Woolworths, and many more.",
     "letsWork": "Let's Work",
@@ -293,11 +273,58 @@
           "bio": "British composer and sound therapist. Having composed for hundreds of works, with over 40 receiving domestic and international awards in fields such as film, television, documentaries, virtual reality, and animation. Since leaving commercial projects in 2018, Jake has dedicated his life and music more fully to sound therapy and meditation music, reaching audiences of hundreds of thousands globally."
         }
       ]
-    }
+    },
+    "listen": "Listen to Live Sets"
   },
   "works": {
     "photosTab": "Photos",
     "videosTab": "Videos",
-    "videosEmpty": "Videos coming soon."
+    "videosEmpty": "Videos coming soon.",
+    "title": "Works",
+    "filterLabel": "Filter by category",
+    "filters": {
+      "all": "All",
+      "fashion": "Fashion",
+      "commercial": "Commercial",
+      "editorial": "Editorial",
+      "film": "Film & TV",
+      "lifestyle": "Lifestyle",
+      "portraits": "Portraits",
+      "music": "Music & Events"
+    }
+  },
+  "brands": {
+    "title": "Selected Brands He Has Worked With"
+  },
+  "gallery": {
+    "close": "Close",
+    "prev": "Previous photo",
+    "next": "Next photo",
+    "open": "Open photo {n} of {total}"
+  },
+  "cta": {
+    "title": "Let's create something extraordinary",
+    "body": "For bookings, collaborations and new projects, get in touch.",
+    "book": "Book Raul",
+    "subject": "Booking enquiry",
+    "djTitle": "Book DJ Laohu",
+    "djBody": "For events and bookings, get in touch.",
+    "djBook": "Book DJ Laohu",
+    "djSubject": "DJ booking enquiry",
+    "orEmail": "Or write to"
+  },
+  "seo": {
+    "about": {
+      "title": "About",
+      "description": "Biography, selected brands, awards and Shining Tigers Production."
+    },
+    "works": {
+      "title": "Works",
+      "description": "Photo albums and videos: fashion, commercial, editorial, film & TV, lifestyle, portraits and music."
+    },
+    "dj": {
+      "title": "DJ Laohu (老虎)",
+      "description": "Live sets, music and Time Travelers."
+    }
   }
 }
